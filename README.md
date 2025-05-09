@@ -70,29 +70,37 @@ project-root/
 
 ## ⚙️ Setup Instructions
 
-⚙️ Setup Instructions
+1. **Start Ganache CLI** (with deterministic accounts):
 
-Start Ganache CLI (with deterministic accounts):
+   ```bash
+   ganache-cli -d
+   ```
 
-ganache-cli -d
+   ➤ Download: [Ganache CLI](https://trufflesuite.com/ganache/)
 
-➤ Download: Ganache CLI
+2. **Install PHP Dependencies via Composer**
 
-Install PHP Dependencies via Composer
+   ```bash
+   composer install
+   ```
 
-composer install
+   ➤ Download: [Composer](https://getcomposer.org/)
 
-➤ Download: Composer
+3. **Import SQL Schema**
+   Use `phpMyAdmin` or CLI to import `database/crypto_transaction.sql` into MySQL.
 
-Import SQL SchemaUse phpMyAdmin or CLI to import database/crypto_transaction.sql into MySQL.
+4. **Configure Email OTP**
+   Set up email credentials in `send_otp.php` using PHPMailer.
+   ➤ Download: [PHPMailer GitHub](https://github.com/PHPMailer/PHPMailer)
 
-Configure Email OTPSet up email credentials in send_otp.php using PHPMailer.➤ Download: PHPMailer GitHub
+5. **Run on Localhost**
+   Serve the project using XAMPP or any local Apache server:
 
-Run on LocalhostServe the project using XAMPP or any local Apache server:
+   ```
+   http://localhost/crypto_transaction/
+   ```
 
-http://localhost/crypto_transaction/
-
-Register → OTP Login → Trade
+6. **Register → OTP Login → Trade**
 
 ---
 
@@ -126,4 +134,5 @@ Feel free to fork, customize, and contribute.
 
 You can also view the initial version of this platform (focused on basic web programming) here:
 
-🔗 [Crypto Trading Simulator – Web Programming Version](https://github.com/Owais221-M/crypto-transaction-web)
+🔗 [Crypto Trading Simulator – Web Programming Version](https://github.com/Owais221-M/crypto-trading-simulator)
+
