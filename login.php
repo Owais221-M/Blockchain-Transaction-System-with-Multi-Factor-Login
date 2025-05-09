@@ -12,7 +12,7 @@ use PHPMailer\PHPMailer\Exception;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $servername = "localhost";
     $username   = "root";
-    $password   = "Ansari_221";
+    $password   = "password";
     $dbname     = "crypto_transaction";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
