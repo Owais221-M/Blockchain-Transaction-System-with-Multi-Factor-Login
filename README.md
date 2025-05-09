@@ -70,26 +70,29 @@ project-root/
 
 ## ⚙️ Setup Instructions
 
-1. **Start Ganache CLI** (with deterministic accounts):
+⚙️ Setup Instructions
 
-   ```bash
-   ganache-cli -d
-   ```
+Start Ganache CLI (with deterministic accounts):
 
-2. **Import SQL Schema**
-   Use `phpMyAdmin` or CLI to import `database/crypto_transaction.sql` into MySQL.
+ganache-cli -d
 
-3. **Configure Email OTP**
-   Set up email credentials in `send_otp.php` using PHPMailer (Gmail app password recommended).
+➤ Download: Ganache CLI
 
-4. **Run on Localhost**
-   Serve the project using XAMPP or any local Apache server:
+Install PHP Dependencies via Composer
 
-   ```
-   http://localhost/crypto_transaction/
-   ```
+composer install
 
-5. **Register → OTP Login → Trade**
+➤ Download: Composer
+
+Import SQL SchemaUse phpMyAdmin or CLI to import database/crypto_transaction.sql into MySQL.
+
+Configure Email OTPSet up email credentials in send_otp.php using PHPMailer.➤ Download: PHPMailer GitHub
+
+Run on LocalhostServe the project using XAMPP or any local Apache server:
+
+http://localhost/crypto_transaction/
+
+Register → OTP Login → Trade
 
 ---
 
