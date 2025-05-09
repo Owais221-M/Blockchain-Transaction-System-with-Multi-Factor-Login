@@ -134,5 +134,5 @@ Feel free to fork, customize, and contribute.
 
 You can also view the initial version of this platform (focused on basic web programming) here:
 
-🔗 [Crypto Trading Simulator – Web Programming Version](https://github.com/Owais221-M/crypto-trading-simulator)
+🔗 [Crypto Trading Simulator – Web Programming Version](https://github.com/Owais221-M/crypto-transaction-web)
 
